@@ -85,7 +85,7 @@ str.lintr_function <- function(x, ...) {
 #' List of default linters for \code{\link{lint}}. Use \code{\link{with_defaults}} to customize it.
 #' @export
 default_linters <- with_defaults(default = list(),
-  assignment_linter,
+  assignment_equals_linter,
   closed_curly_linter(),
   commas_linter,
   commented_code_linter,
